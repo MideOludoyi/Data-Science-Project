@@ -51,7 +51,7 @@ You can install the required packages using the `requirements.txt` file.
 pip install -r requirements.txt
 ```
 
-
+```bash
 pavement-distress-predictive-tool/
 │
 ├── data/
