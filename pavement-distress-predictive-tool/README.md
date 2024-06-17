@@ -18,6 +18,14 @@ This repository contains a predictive tool designed to evaluate and forecast pav
 
 The Pavement Distress Predictive Tool is aimed at providing an accurate prediction of Pavement Condition Index (PCI) based on various distress features such as area, length, severity, and distress density. This tool leverages a machine learning model to assist in pavement maintenance and planning.
 
+## Dataset Summary
+
+SUMMARY
+The City of Bloomington contracted with a firm to conduct a citywide survey of street pavement conditions. The data and associated infrastructure metrics was collected between January and March 2018 through field inspections utilizing the use of Light Detection and Ranging (LIDAR) technology. LIDAR is much more time efficient than visual data collection, allows for real-time data collection and provides more uniform and accurate reporting. The street pavement data that was collected updated the Pavement Condition Index (PCI) ratings for the City’s entire 234 miles of street network. Street Department staff uses PCI ratings to prepare targeted improvements during the development of the City's annual paving schedule. The City is also required to annually collect and report PCI rating data for its entire street network to the Indiana Department of Transportation. Visualizations: * Pavement Segment Viewer Documentation from this survey effort is listed below.
+
+Source: https://data.bloomington.in.gov/dataset/2018-pavement-condition-report
+Last updated at https://data.bloomington.in.gov/dataset : 2019-10-24
+
 ## Features
 
 - **Data Loading and Cleaning**: Handles raw data input, cleansing, and preprocessing.
@@ -41,6 +49,7 @@ You can install the required packages using the `requirements.txt` file.
 
 ```bash
 pip install -r requirements.txt
+```
 
 
 pavement-distress-predictive-tool/
