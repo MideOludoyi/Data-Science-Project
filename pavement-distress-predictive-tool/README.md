@@ -86,7 +86,7 @@ The script performs the following tasks:
 - Evaluation metrics will be saved in output/evaluation_metrics.txt.
 - Plots will be saved in the output/plots directory
 
-
+## Project Structure
 ```bash
 pavement-distress-predictive-tool/
 │
@@ -110,3 +110,19 @@ pavement-distress-predictive-tool/
 ├── main.py                         # Main script to run the entire process
 ├── requirements.txt                # Required dependencies
 └── README.md                       # This README file
+```
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+- Fork the repository.
+- Create a new branch (git checkout -b feature-branch).
+- Make your changes.
+- Commit your changes (git commit -m 'Add new feature').
+- Push to the branch (git push origin feature-branch).
+- Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License
