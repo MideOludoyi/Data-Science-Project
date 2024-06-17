@@ -20,7 +20,7 @@ The Pavement Distress Predictive Tool is aimed at providing an accurate predicti
 
 ## Dataset Summary
 
-SUMMARY
+#### Summary
 The City of Bloomington contracted with a firm to conduct a citywide survey of street pavement conditions. The data and associated infrastructure metrics was collected between January and March 2018 through field inspections utilizing the use of Light Detection and Ranging (LIDAR) technology. LIDAR is much more time efficient than visual data collection, allows for real-time data collection and provides more uniform and accurate reporting. The street pavement data that was collected updated the Pavement Condition Index (PCI) ratings for the City’s entire 234 miles of street network. Street Department staff uses PCI ratings to prepare targeted improvements during the development of the City's annual paving schedule. The City is also required to annually collect and report PCI rating data for its entire street network to the Indiana Department of Transportation. Visualizations: * Pavement Segment Viewer Documentation from this survey effort is listed below.
 
 Source: https://data.bloomington.in.gov/dataset/2018-pavement-condition-report
@@ -50,6 +50,42 @@ You can install the required packages using the `requirements.txt` file.
 ```bash
 pip install -r requirements.txt
 ```
+## Installations
+1. Clone the Repository:
+```bash
+git clone https://github.com/MideOludoyi/Data-Science-Project.git
+```
+2. Navigate to the Project Directory:
+```bash
+cd pavement-distress-predictive-tool
+```
+3. Install Dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+1. Prepare Data:
+- Ensure your data file pavement.csv is in the data directory.
+2. Run the Main Script:
+```bash
+python main.py
+```
+The script performs the following tasks:
+- Loads and cleans the data.
+- Performs feature extraction and transformation.
+- Scales the features and saves the processed data.
+- Splits the data into training and testing sets.
+- Trains a machine learning model and saves it.
+- Evaluates the model's performance and generates plots.
+
+3. Output:
+- The cleaned data will be saved in output/cleaned_data.csv.
+- The engineered features will be saved in output/engineered_features.csv.
+- The trained model will be saved in output/pavement_distress_model.pkl.
+- Evaluation metrics will be saved in output/evaluation_metrics.txt.
+- Plots will be saved in the output/plots directory
+
 
 ```bash
 pavement-distress-predictive-tool/
